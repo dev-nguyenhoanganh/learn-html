@@ -2,7 +2,7 @@
 
 > ### Developer: [Nguyễn Hoàng Anh](https://www.linkedin.com/in/ldcapt/)
 
-I practice my HTML, CSS, Javascript skill by do some stub like this.
+I practice my HTML, CSS, Javascript skill by doing some stub like this.
 
 ## 01_Expanding Cards
 
@@ -19,3 +19,8 @@ I practice my HTML, CSS, Javascript skill by do some stub like this.
 ## 04_Hidden Search
 
 ![Hidden Search](/note-image/04_Hidden%20Search.gif)
+
+## 05_Blurry Loading
+
+![Blurry Loading](/note-image/05_Blurry%20Loading.gif)
+
