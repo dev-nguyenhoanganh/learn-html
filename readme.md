@@ -27,3 +27,7 @@ I practice my HTML, CSS, Javascript skill by doing some stub like this.
 ## 06_Scrolling Animation
 
 ![Scrolling Animation](/note-image/06_Scrolling%20Animation.gif)
+
+## 07_Split Landing Page
+
+![Split Landing Page](/note-image/07_Split%20Landing%20Page.gif)
