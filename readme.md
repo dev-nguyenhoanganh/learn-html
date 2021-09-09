@@ -24,3 +24,6 @@ I practice my HTML, CSS, Javascript skill by doing some stub like this.
 
 ![Blurry Loading](/note-image/05_Blurry%20Loading.gif)
 
+## 06_Scrolling Animation
+
+![Scrolling Animation](/note-image/06_Scrolling%20Animation.gif)
