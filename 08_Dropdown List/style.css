@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+    --color-primary: #1E64FF;
+    --color-primary-hover: #BFE2FF;
+    --color-primary-disable: #F0F0F099;
+    --color-primary-disable-border: #1E64FF99;
+    --color-commit: #00954A;
+    --color-commit-hover: #ABEACD;
+    --color-commit-disable: #F0F0F099;
+    --color-commit-disable-border: #00954A99;
+    --color-negative: #F0551D;
+    --color-negative-hover: #FFD2C2;
+    --color-negative-disable: #F0F0F099;
+    --color-negative-disable-border: #F0551D99;
+    --color-normal: #666666;
+    --color-normal-hover: #CCCCCC;
+    --color-normal-disable: #F0F0F099;
+    --color-normal-disable-border: #66666699;
+    --color-icon-btn: #666666;
+    --color-icon-btn-hover: #CCCCCC;
+    --color-icon-btn-disable-border: #F0551D99;
+    --color-icon-btn-disable: #66666699;
+    --color-input-background-normal: #FFF;
+    --color-input-background-tbl: #FFFBD9;
+    --color-input-background-disable: #CCCCCC;
+    --color-input-background-error: #FFD2C2;
+    --color-input-boder-normal: #999999;
+    --color-input-boder-error: #CC000A;
+    --color-input-boder-tbl: #999999;
+    --color-input-boder-focus: #1E64FF;
+    --color-input-boder-focus-shadow: #1E64FF80;
+    --color-input-placeholder: #999999;
+    --color-input-text: #222222;
+    --color-input-error-mess: #CC000A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* line 58, common/_input.scss */
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    /*style items (options): */
+}
+
+/* line 63, common/_input.scss */
+
+.dropdown-container select {
+    width: 240px;
+    display: none;
+}
+
+/* line 68, common/_input.scss */
+
+.dropdown-container .dropdown {
+    background-color: var(--color-input-background-tbl);
+    border: 1px solid var(--color-input-boder-normal);
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+/* line 76, common/_input.scss */
+
+.dropdown-container .dropdown.focus {
+    border-color: var(--color-input-boder-focus);
+    box-shadow: 0 0 2px 1px var(--color-input-boder-focus-shadow);
+}
+
+/* line 81, common/_input.scss */
+
+.dropdown-container .dropdown__icon {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    transform: translate(-4px, 4px);
+}
+
+/* line 90, common/_input.scss */
+
+.dropdown-container .list-items {
+    display: block;
+    position: absolute;
+    border: 1px solid var(--color-input-boder-normal);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #fff;
+    /*style the items (options), including the selected item:*/
+}
+
+/* line 100, common/_input.scss */
+
+.dropdown-container .list-items .dropdown__search {
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+}
+
+/* line 106, common/_input.scss */
+
+.dropdown-container .list-items .dropdown__search input {
+    height: 26px;
+    width: 100%;
+    padding: 0 8px 0 30px;
+}
+
+/* line 110, common/_input.scss */
+
+.dropdown-container .list-items .dropdown__search input:focus {
+    outline: none;
+}
+
+/* line 113, common/_input.scss */
+
+.dropdown-container .list-items .dropdown__search .search-icon {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* line 120, common/_input.scss */
+
+.dropdown-container .list-items .dropdown__search .search-icon::before {
+    position: absolute;
+    transform: translate(5px, 5px);
+}
+
+/* line 129, common/_input.scss */
+
+.dropdown-container .list-items div.item {
+    color: var(--color-input-text);
+    padding: 5px 8px 6px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* line 136, common/_input.scss */
+
+.dropdown-container .list-items div.item.hide {
+    display: none;
+}
+
+/* line 137, common/_input.scss */
+
+.dropdown-container .list-items div.item:hover {
+    background-color: var(--color-primary-hover);
+}
+
+/* line 140, common/_input.scss */
+
+.dropdown-container .list-items.hide {
+    display: none;
+}
+
+/* line 143, common/_input.scss */
+
+.dropdown-container .same-as-selected {
+    background-color: var(--color-primary-hover);
+}

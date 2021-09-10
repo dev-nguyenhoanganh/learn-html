@@ -31,3 +31,7 @@ I practice my HTML, CSS, Javascript skill by doing some stub like this.
 ## 07_Split Landing Page
 
 ![Split Landing Page](/note-image/07_Split%20Landing%20Page.gif)
+
+## 08_Dropdown List
+
+![Dropdown List](/note-image/08_Dropdown%20List.gif)
