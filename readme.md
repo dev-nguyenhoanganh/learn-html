@@ -35,3 +35,7 @@ I practice my HTML, CSS, Javascript skill by doing some stub like this.
 ## 08_Dropdown List
 
 ![Dropdown List](/note-image/08_Dropdown%20List.gif)
+
+## 09_Form Input Wave
+
+![Form Input Wave](/note-image/09_Form%20Input%20Wave.gif)
