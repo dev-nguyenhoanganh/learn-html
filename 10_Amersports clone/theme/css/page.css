@@ -1,0 +1,499 @@
+.h1,h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 3.375rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblue)
+}
+
+@media (min-width: 80rem) {
+  .h1,h1 {
+      font-size:2.375rem
+  }
+}
+
+@media (max-width: 29.9375rem) {
+  .h1,h1 {
+      line-height:2.25rem
+  }
+}
+
+.h1 a:after,h1 a:after {
+  height: 1.875rem!important;
+  width: 1.875rem!important;
+  background-size: contain!important
+}
+
+.h1.wp-block-post-title,h1.wp-block-post-title {
+  margin-top: 4.125rem
+}
+
+.h2,h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  letter-spacing: .1375rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  color: var(--wp--preset--color--themeblack)
+}
+
+@media (min-width: 80rem) {
+  .h2,h2 {
+      font-size:1.5rem;
+      line-height: 2rem;
+      letter-spacing: .15rem
+  }
+}
+
+.h2 a:after,h2 a:after {
+  height: 1.25rem!important;
+  width: 1.25rem!important;
+  background-size: contain!important
+}
+
+.h3,h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack)
+}
+
+.h3 a:after,h3 a:after {
+  height: 1.125rem!important;
+  width: 1.125rem!important;
+  background-size: contain!important
+}
+
+.is-style-centerUnderline {
+  position: relative;
+  margin-bottom: 3.5rem;
+  text-align: center
+}
+
+.is-style-centerUnderline:after {
+  content: "";
+  position: absolute;
+  top: unset;
+  bottom: -1rem;
+  left: 50%;
+  width: 3.125rem;
+  height: .25rem;
+  background-color: var(--wp--preset--color--themeblack);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.is-style-centerUnderlineStrong {
+  position: relative;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
+.is-style-centerUnderlineStrong:after {
+  content: "";
+  position: absolute;
+  top: unset;
+  bottom: -1rem;
+  left: 50%;
+  width: 3.125rem;
+  height: .25rem;
+  background-color: var(--wp--preset--color--themeblack);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+@media (min-width: 48rem) {
+  .is-style-centerUnderlineStrong {
+      font-size:1.5rem;
+      line-height: 1.625rem
+  }
+}
+
+@media (min-width: 80rem) {
+  .is-style-centerUnderlineStrong {
+      font-size:1.75rem;
+      line-height: 2.5rem
+  }
+}
+
+.is-style-leftUnderline {
+  position: relative;
+  margin-bottom: 3.5rem
+}
+
+.is-style-leftUnderline:after {
+  content: "";
+  position: absolute;
+  top: unset;
+  bottom: -1rem;
+  left: 0;
+  width: 3.125rem;
+  height: .25rem;
+  background-color: var(--wp--preset--color--themeblack)
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack)
+}
+
+@media (min-width: 80rem) {
+  p {
+      font-size:1rem;
+      line-height: 1.625rem
+  }
+}
+
+p.is-style-ingress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack);
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+@media (min-width: 80rem) {
+  p.is-style-ingress {
+      font-size:1rem;
+      line-height: 1.625rem
+  }
+}
+
+@media (min-width: 80rem) {
+  p.is-style-ingress {
+      font-size:1.25rem;
+      line-height: 1.875rem
+  }
+}
+
+p.is-style-hightlight_text {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0 3.125rem;
+  margin-bottom: 2.375rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblue)
+}
+
+@media (min-width: 48rem) {
+  p.is-style-hightlight_text {
+      font-size:1.375rem;
+      line-height: 1.875rem;
+      margin-bottom: 2.8125rem
+  }
+}
+
+@media (min-width: 80rem) {
+  p.is-style-hightlight_text {
+      margin-bottom:3rem
+  }
+}
+
+p.is-style-hightlight_text:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  bottom: 0;
+  right: unset;
+  height: 100%;
+  width: .0625rem;
+  background-color: var(--wp--preset--color--themeblue)
+}
+
+p.hightlight_text {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: .5625rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themegrey);
+  text-transform: uppercase
+}
+
+@media (min-width: 48rem) {
+  p.hightlight_text {
+      line-height:1.5625rem;
+      letter-spacing: .0875rem
+  }
+}
+
+ol,ul {
+  margin: 0;
+  padding: 0
+}
+
+main ol,main ul {
+  padding: .625rem 0 1.25rem .625rem;
+  list-style-position: inside
+}
+
+main ol ol,main ol ul,main ul ol,main ul ul {
+  margin-bottom: 0;
+  padding: .5rem 0 0 1.5rem;
+  list-style-type: disc
+}
+
+main ol li,main ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack);
+  margin-bottom: .5rem;
+  text-indent: -1.4375rem;
+  margin-left: 1.4375rem
+}
+
+.underline-style-short {
+  position: relative
+}
+
+.underline-style-short:after {
+  content: "";
+  position: absolute;
+  top: unset;
+  bottom: -.375rem;
+  left: 0;
+  width: 3.125rem;
+  height: .0625rem;
+  border-bottom: .0625rem solid var(--wp--preset--color--themeblue)
+}
+
+table {
+  font-family: var(--wp--preset--font-family--urw-din)
+}
+
+.menu a {
+  font-family: var(--wp--preset--font-family--urw-din)
+}
+
+h1 a {
+  color: var(--wp--preset--color--themeblue);
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under;
+  display: inline-block
+}
+
+h1 a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
+
+h2 a {
+  color: var(--wp--preset--color--themeblue);
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under;
+  display: inline-block
+}
+
+h2 a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
+
+h3 a {
+  color: var(--wp--preset--color--themeblue);
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under;
+  display: inline-block
+}
+
+h3 a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
+
+.wp-block-table a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack);
+  color: var(--wp--preset--color--themeblue);
+  font-weight: 700;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under
+}
+
+@media (min-width: 80rem) {
+  .wp-block-table a {
+      font-size:1rem;
+      line-height: 1.625rem
+  }
+}
+
+.wp-block-table a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
+
+main li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack);
+  color: var(--wp--preset--color--themeblue);
+  font-weight: 700;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under
+}
+
+@media (min-width: 80rem) {
+  main li a {
+      font-size:1rem;
+      line-height: 1.625rem
+  }
+}
+
+main li a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
+
+main p a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  font-family: var(--wp--preset--font-family--urw-din);
+  letter-spacing: 0;
+  color: var(--wp--preset--color--themeblack);
+  color: var(--wp--preset--color--themeblue);
+  font-weight: 700;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-color: var(--wp--preset--color--themegrey);
+  text-decoration-thickness: .0625rem;
+  text-underline-position: under
+}
+
+@media (min-width: 80rem) {
+  main p a {
+      font-size:1rem;
+      line-height: 1.625rem
+  }
+}
+
+main p a:not([href*="//www.amersports.com"]):not(.email-link):not(a:empty):not([href*=mailto]):after {
+  content: "";
+  display: inline-block;
+  width: .6875rem;
+  height: .6875rem;
+  margin-left: .375rem;
+  margin-right: .125rem;
+  background-image: url(/wp-content/themes/amer-sports/dist/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: .6875rem
+}
